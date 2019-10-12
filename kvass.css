@@ -1,0 +1,222 @@
+/* All rights reserved to Aiman Almureish IT IS ME and any distribution of may content
+or illegal use will expose you to face the LAW  */
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper-fluid{
+  margin-right: auto;
+margin-left:  auto;
+max-width: 80%;
+padding-right: 10px;
+padding-left:  10px;
+}
+
+.wrapper{
+  margin-right: auto;
+margin-left:  auto;
+max-width: 100%;
+padding-right: 0px;
+padding-left:  0px;
+}
+
+._100{
+  width: 100%;
+}
+
+._50{
+  width: 50%;
+}
+
+.img-fw{
+  width: 100%;
+}
+
+.f-right{
+  float: right;
+}
+
+.f-left{
+  float: left;
+}
+
+.f-none{
+  float: none;
+}
+
+.t-light{
+  color: white;
+}
+
+.green{
+  background-color: green;
+}
+
+.red{
+  background-color: red;
+}
+
+.t-right{
+  text-align: right;
+
+}
+
+.t-left{
+  text-align: left;
+
+}
+
+.t-center{
+  text-align: center;
+
+}
+
+.clearfix{
+  clear: both;
+  content: "";
+}
+
+.heading-primary{
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+[class*="col-fl"]{
+  width: 100%;
+  float: left;
+  padding: 15px;
+  /* border: 1px solid black; */
+}
+
+[class*="col-fr"]{
+  width: 100%;
+  float: right;
+  padding: 15px;
+  /* border: 1px solid black; */
+}
+
+/* tablet */
+@media (min-width:600px) {
+  .col-fl-md-1{
+    width: 8.33%;
+  }
+  .col-fl-md-2{
+    width: 16.66%;
+  }
+  .col-fl-md-3{
+    width: 25%;
+  }
+  .col-fl-md-4{
+    width: 33.33%;
+  }
+  .col-fl-md-5{
+    width: 41.66%;
+  }
+  .col-fl-md-6{
+    width: 50%;
+  }
+  .col-fl-md-7{
+    width: 58.33%;
+  }
+  .col-fl-md-8{
+    width: 66.66%;
+  }
+  .col-fl-md-9{
+    width: 75%;
+  }
+  .col-fl-md-10{
+    width: 83.33%;
+  }
+  .col-fl-md-11{
+    width: 91.66%;
+  }
+  .col-fl-md-12{
+    width: 100%;
+  }
+
+  /* float right */
+
+  .col-fr-md-1{
+    width: 8.33%;
+  }
+  .col-fr-md-2{
+    width: 16.66%;
+  }
+  .col-fr-md-3{
+    width: 25%;
+  }
+  .col-fr-md-4{
+    width: 33.33%;
+  }
+  .col-fr-md-5{
+    width: 41.66%;
+  }
+  .col-fr-md-6{
+    width: 50%;
+  }
+  .col-fr-md-7{
+    width: 58.33%;
+  }
+  .col-fr-md-8{
+    width: 66.66%;
+  }
+  .col-fr-md-9{
+    width: 75%;
+  }
+  .col-fr-md-10{
+    width: 83.33%;
+  }
+  .col-fr-md-11{
+    width: 91.66%;
+  }
+  .col-fr-md-12{
+    width: 100%;
+  }
+}
+
+
+/* desktop */
+
+@media only screen and (min-width:768px) {
+  .col-1{
+    width: 8.33%;
+  }
+  .col-2{
+    width: 16.66%;
+  }
+  .col-3{
+    width: 25%;
+  }
+  .col-4{
+    width: 33.33%;
+  }
+  .col-5{
+    width: 41.66%;
+  }
+  .col-6{
+    width: 50%;
+  }
+  .col-7{
+    width: 58.33%;
+  }
+  .col-8{
+    width: 66.66%;
+  }
+  .col-9{
+    width: 75%;
+  }
+  .col-10{
+    width: 83.33%;
+  }
+  .col-11{
+    width: 91.66%;
+  }
+  .col-12{
+    width: 100%;
+  }
+
+}
