@@ -1,0 +1,9 @@
+{
+  "name": "kvass",
+  "version": "1.0.0",
+  "description": "CSS framework library",
+  "main": "index.js",
+  "repository": "https://github.com/AimanAlmureish/KVASS",
+  "author": "AimanAlmureish",
+  "license": "MIT"
+}
