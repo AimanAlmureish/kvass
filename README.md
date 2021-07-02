@@ -5,18 +5,9 @@
   <a aria-label="npm package" href="https://www.npmjs.com/package/kvass">
     <img alt="" src="https://img.shields.io/npm/v/kvass">
   </a>
-<!--   <a aria-label="build status" href="https://github.com/AimanAlmureish/KVASS/">
-    <img alt="" src="https://github.com/AimanAlmureish/KVASS/actions/workflows/ci.yml/badge.svg">
-  </a> -->
-<!--   <a aria-label="contributors graph" href="https://github.com/AimanAlmureish/KVASS/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/AimanAlmureish/css.svg">
-  </a> -->
-  <a aria-label="last commit" href="https://github.com//KVASS/css/commits/main">
+  <a aria-label="last commit" href="https://github.com/kvass/css/commits/main">
     <img alt="" src="https://img.shields.io/github/last-commit/AimanAlmureish/css.svg">
   </a>
-<!--   <a aria-label="license" href="https://github.com/primer/css/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/primer/css.svg" alt="">
-  </a> -->
 </p>
 
 ## Installation ⏳
