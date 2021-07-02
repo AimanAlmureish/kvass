@@ -1,5 +1,4 @@
-/* All rights reserved to Aiman Almureish This IS ME and any distribution of may content
-or illegal use will expose you to face the LAW  */
+/* All rights reserved to Aiman Almureish This IS ME and any illegal use will expose you to face the LAW  */
 
 * {
     margin: 0;
@@ -233,7 +232,7 @@ flex {
     display: flex;
 }
 
-FlexCenter {
+flexCenter {
     justify-content: center;
 }
 
