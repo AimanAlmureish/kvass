@@ -27,7 +27,8 @@ yarn add kvass
   
 ## Usage 🔮
 ### Coming soon  
-  
+
+## License MIT 🎌
   
 ## Notes 🚩
 <p> We are just started and the project is still under development. </p>
