@@ -228,51 +228,59 @@
 
 /* FLEX  */
 
-flex {
+.flex {
     display: flex;
 }
 
-flexCenter {
+.flexCenter {
     justify-content: center;
 }
 
-flexBetween {
+.flexBetween {
     justify-content: space-between;
 }
 
-flexAround {
+.flexAround {
     justify-content: space-around;
 }
 
-flexStart {
+.flexStart {
     justify-content: flex-start;
 }
 
-flexEnd {
+.flexEnd {
     justify-content: flex-end;
 }
 
-flexAlignCenter {
+.flexEnd {
+    justify-content: stretch;
+}
+
+.flexAlignCenter {
     align-items: center;
 }
 
-flexAlignStart {
+.flexAlignStart {
     align-items: flex-start;
 }
 
-flexAlignEnd {
+.flexAlignEnd {
     align-items: flex-end;
 }
 
-flexColumn {
+.flexAlignStretch {
+    align-items: stretch;
+}
+
+.flexColumn {
     flex-direction: column;
 }
 
-flexColumnReverse {
+.flexColumnReverse {
     flex-direction: column-reverse;
 }
 
-flexRowReverse {
+.flexRowReverse {
     flex-direction: row-reverse;
 }
 
