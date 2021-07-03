@@ -21,13 +21,14 @@ yarn add kvass
 ```
 
 ### Using direct CDN link
-<p>Just add this link to the <head> tag in your HTML file</p>
+<p>Just add this link to the head tag in your HTML file</p>
   
-`<link rel="stylesheet" href="https://unpkg.com/kvass@1.0.1/kvass.css">`
+`<link rel="stylesheet" href="https://unpkg.com/kvass/kvass.css">`
   
 ## Usage 🔮
 ### Coming soon  
-  
+
+## License MIT 🎌
   
 ## Notes 🚩
 <p> We are just started and the project is still under development. </p>
