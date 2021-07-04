@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
 .wrapperFluid {
     margin-right: auto;
     margin-left: auto;
@@ -223,6 +228,49 @@
     display: table;
     margin: 0;
     max-width: none;
+}
+
+
+/* BUTTONS  */
+
+.buttonDanger {
+    background-color: rgb(250, 70, 70);
+    padding: 0.7em 1em;
+    border-radius: 5px;
+    border-style: none;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.buttonWarn {
+    background-color: rgb(182, 169, 50);
+    padding: 0.7em 1em;
+    border-radius: 5px;
+    border-style: none;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.buttonSubmit {
+    background-color: rgb(98, 100, 241);
+    padding: 0.7em 1em;
+    border-radius: 5px;
+    border-style: none;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.buttonDisable {
+    background-color: rgb(134, 134, 134);
+    padding: 0.7em 1em;
+    border-radius: 5px;
+    border-style: none;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s ease;
 }
 
 
