@@ -25,8 +25,8 @@ yarn add kvass
   
 `<link rel="stylesheet" href="https://unpkg.com/kvass/kvass.css">`
   
-## Usage 🔮
-### Coming soon  
+## Usage and Docs 🔮
+https://kvass.netlify.app/ 
 
 ## License MIT 🎌
   
