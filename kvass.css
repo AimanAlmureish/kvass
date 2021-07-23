@@ -1,4 +1,4 @@
-/* All rights reserved to Aiman Almureish This IS ME and any illegal use will expose you to face the LAW  */
+/* All rights reserved to Aiman Almureish this project is available for commercial and personal use and this project is under MIT license */
 
 * {
     margin: 0;
@@ -644,7 +644,7 @@ body {
     justify-content: flex-end;
 }
 
-.flexEnd {
+.flexStretch {
     justify-content: stretch;
 }
 
@@ -699,6 +699,9 @@ body {
     float: right;
     padding: 15px;
 }
+
+
+/* Old and deprecated */
 
 
 /* tablet */
