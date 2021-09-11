@@ -165,6 +165,49 @@ body {
 }
 
 
+/* vh  */
+
+.h_100vh {
+    height: 100vh;
+}
+
+.h_90vh {
+    height: 90vh;
+}
+
+.h_80vh {
+    height: 80vh;
+}
+
+.h_70vh {
+    height: 70vh;
+}
+
+.h_60vh {
+    height: 60vh;
+}
+
+.h_50vh {
+    height: 50vh;
+}
+
+.h_40vh {
+    height: 40vh;
+}
+
+.h_30vh {
+    height: 30vh;
+}
+
+.h_20vh {
+    height: 20vh;
+}
+
+.h_10vh {
+    height: 10vh;
+}
+
+
 /* Padding right */
 
 .pr1em {
@@ -542,11 +585,11 @@ body {
 }
 
 .textCenter {
-    text-align: left;
+    text-align: center;
 }
 
 .textLeft {
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -667,6 +710,10 @@ body {
     justify-content: stretch;
 }
 
+.flexEvenly {
+    justify-content: space-evenly;
+}
+
 .flexAlignCenter {
     align-items: center;
 }
@@ -705,6 +752,522 @@ body {
 
 .flexNoWrap {
     flex-wrap: nowrap;
+}
+
+
+/* Media */
+
+@media(max-width: 2560px) {
+    .flex_max2560 {
+        display: flex;
+    }
+    .flexCenter_max2560 {
+        justify-content: center;
+    }
+    .flexBetween_max2560 {
+        justify-content: space-between;
+    }
+    .flexAround_max2560 {
+        justify-content: space-around;
+    }
+    .flexStart_max2560 {
+        justify-content: flex-start;
+    }
+    .flexEnd_max2560 {
+        justify-content: flex-end;
+    }
+    .flexStretch_max2560 {
+        justify-content: stretch;
+    }
+    .flexEvenly_max2560 {
+        justify-content: space-evenly;
+    }
+    .flexAlignCenter_max2560 {
+        align-items: center;
+    }
+    .flexAlignStart_max2560 {
+        align-items: flex-start;
+    }
+    .flexAlignEnd_max2560 {
+        align-items: flex-end;
+    }
+    .flexAlignStretch_max2560 {
+        align-items: stretch;
+    }
+    .flexColumn_max2560 {
+        flex-direction: column;
+    }
+    .flexColumnReverse_max2560 {
+        flex-direction: column-reverse;
+    }
+    .flexRowReverse_max2560 {
+        flex-direction: row-reverse;
+    }
+    .flexWrap_max2560 {
+        flex-wrap: wrap;
+    }
+    .flexWrapReverse_max2560 {
+        flex-wrap: wrap-reverse;
+    }
+    .flexNoWrap_max2560 {
+        flex-wrap: nowrap;
+    }
+}
+
+@media(max-width: 1440px) {
+    .flex_max1440 {
+        display: flex;
+    }
+    .flexCenter_max1440 {
+        justify-content: center;
+    }
+    .flexBetween_max1440 {
+        justify-content: space-between;
+    }
+    .flexAround_max1440 {
+        justify-content: space-around;
+    }
+    .flexStart_max1440 {
+        justify-content: flex-start;
+    }
+    .flexEnd_max1440 {
+        justify-content: flex-end;
+    }
+    .flexStretch_max1440 {
+        justify-content: stretch;
+    }
+    .flexEvenly_max1440 {
+        justify-content: space-evenly;
+    }
+    .flexAlignCenter_max1440 {
+        align-items: center;
+    }
+    .flexAlignStart_max1440 {
+        align-items: flex-start;
+    }
+    .flexAlignEnd_max1440 {
+        align-items: flex-end;
+    }
+    .flexAlignStretch_max1440 {
+        align-items: stretch;
+    }
+    .flexColumn_max1440 {
+        flex-direction: column;
+    }
+    .flexColumnReverse_max1440 {
+        flex-direction: column-reverse;
+    }
+    .flexRowReverse_max1440 {
+        flex-direction: row-reverse;
+    }
+    .flexWrap_max1440 {
+        flex-wrap: wrap;
+    }
+    .flexWrapReverse_max1440 {
+        flex-wrap: wrap-reverse;
+    }
+    .flexNoWrap_max1440 {
+        flex-wrap: nowrap;
+    }
+}
+
+@media(max-width: 1024px) {
+    .flex_max1024 {
+        display: flex;
+    }
+    .flexCenter_max1024 {
+        justify-content: center;
+    }
+    .flexBetween_max1024 {
+        justify-content: space-between;
+    }
+    .flexAround_max1024 {
+        justify-content: space-around;
+    }
+    .flexStart_max1024 {
+        justify-content: flex-start;
+    }
+    .flexEnd_max1024 {
+        justify-content: flex-end;
+    }
+    .flexStretch_max1024 {
+        justify-content: stretch;
+    }
+    .flexEvenly_max1024 {
+        justify-content: space-evenly;
+    }
+    .flexAlignCenter_max1024 {
+        align-items: center;
+    }
+    .flexAlignStart_max1024 {
+        align-items: flex-start;
+    }
+    .flexAlignEnd_max1024 {
+        align-items: flex-end;
+    }
+    .flexAlignStretch_max1024 {
+        align-items: stretch;
+    }
+    .flexColumn_max1024 {
+        flex-direction: column;
+    }
+    .flexColumnReverse_max1024 {
+        flex-direction: column-reverse;
+    }
+    .flexRowReverse_max1024 {
+        flex-direction: row-reverse;
+    }
+    .flexWrap_max1024 {
+        flex-wrap: wrap;
+    }
+    .flexWrapReverse_max1024 {
+        flex-wrap: wrap-reverse;
+    }
+    .flexNoWrap_max1024 {
+        flex-wrap: nowrap;
+    }
+}
+
+@media(max-width: 992px) {
+    .flex_max992 {
+        display: flex;
+    }
+    .flexCenter_max992 {
+        justify-content: center;
+    }
+    .flexBetween_max992 {
+        justify-content: space-between;
+    }
+    .flexAround_max992 {
+        justify-content: space-around;
+    }
+    .flexStart_max992 {
+        justify-content: flex-start;
+    }
+    .flexEnd_max992 {
+        justify-content: flex-end;
+    }
+    .flexStretch_max992 {
+        justify-content: stretch;
+    }
+    .flexEvenly_max992 {
+        justify-content: space-evenly;
+    }
+    .flexAlignCenter_max992 {
+        align-items: center;
+    }
+    .flexAlignStart_max992 {
+        align-items: flex-start;
+    }
+    .flexAlignEnd_max992 {
+        align-items: flex-end;
+    }
+    .flexAlignStretch_max992 {
+        align-items: stretch;
+    }
+    .flexColumn_max992 {
+        flex-direction: column;
+    }
+    .flexColumnReverse_max992 {
+        flex-direction: column-reverse;
+    }
+    .flexRowReverse_max992 {
+        flex-direction: row-reverse;
+    }
+    .flexWrap_max992 {
+        flex-wrap: wrap;
+    }
+    .flexWrapReverse_max992 {
+        flex-wrap: wrap-reverse;
+    }
+    .flexNoWrap_max992 {
+        flex-wrap: nowrap;
+    }
+}
+
+@media(max-width: 768px) {
+    .flex_max768 {
+        display: flex;
+    }
+    .flexCenter_max768 {
+        justify-content: center;
+    }
+    .flexBetween_max768 {
+        justify-content: space-between;
+    }
+    .flexAround_max768 {
+        justify-content: space-around;
+    }
+    .flexStart_max768 {
+        justify-content: flex-start;
+    }
+    .flexEnd_max768 {
+        justify-content: flex-end;
+    }
+    .flexStretch_max768 {
+        justify-content: stretch;
+    }
+    .flexEvenly_max768 {
+        justify-content: space-evenly;
+    }
+    .flexAlignCenter_max768 {
+        align-items: center;
+    }
+    .flexAlignStart_max768 {
+        align-items: flex-start;
+    }
+    .flexAlignEnd_max768 {
+        align-items: flex-end;
+    }
+    .flexAlignStretch_max768 {
+        align-items: stretch;
+    }
+    .flexColumn_max768 {
+        flex-direction: column;
+    }
+    .flexColumnReverse_max768 {
+        flex-direction: column-reverse;
+    }
+    .flexRowReverse_max768 {
+        flex-direction: row-reverse;
+    }
+    .flexWrap_max768 {
+        flex-wrap: wrap;
+    }
+    .flexWrapReverse_max768 {
+        flex-wrap: wrap-reverse;
+    }
+    .flexNoWrap_max768 {
+        flex-wrap: nowrap;
+    }
+}
+
+@media(max-width: 500px) {
+    .flex_max500 {
+        display: flex;
+    }
+    .flexCenter_max500 {
+        justify-content: center;
+    }
+    .flexBetween_max500 {
+        justify-content: space-between;
+    }
+    .flexAround_max500 {
+        justify-content: space-around;
+    }
+    .flexStart_max500 {
+        justify-content: flex-start;
+    }
+    .flexEnd_max500 {
+        justify-content: flex-end;
+    }
+    .flexStretch_max500 {
+        justify-content: stretch;
+    }
+    .flexEvenly_max500 {
+        justify-content: space-evenly;
+    }
+    .flexAlignCenter_max500 {
+        align-items: center;
+    }
+    .flexAlignStart_max500 {
+        align-items: flex-start;
+    }
+    .flexAlignEnd_max500 {
+        align-items: flex-end;
+    }
+    .flexAlignStretch_max500 {
+        align-items: stretch;
+    }
+    .flexColumn_max500 {
+        flex-direction: column;
+    }
+    .flexColumnReverse_max500 {
+        flex-direction: column-reverse;
+    }
+    .flexRowReverse_max500 {
+        flex-direction: row-reverse;
+    }
+    .flexWrap_max500 {
+        flex-wrap: wrap;
+    }
+    .flexWrapReverse_max500 {
+        flex-wrap: wrap-reverse;
+    }
+    .flexNoWrap_max500 {
+        flex-wrap: nowrap;
+    }
+}
+
+@media(max-width: 425px) {
+    .flex_max425 {
+        display: flex;
+    }
+    .flexCenter_max425 {
+        justify-content: center;
+    }
+    .flexBetween_max425 {
+        justify-content: space-between;
+    }
+    .flexAround_max425 {
+        justify-content: space-around;
+    }
+    .flexStart_max425 {
+        justify-content: flex-start;
+    }
+    .flexEnd_max425 {
+        justify-content: flex-end;
+    }
+    .flexStretch_max425 {
+        justify-content: stretch;
+    }
+    .flexEvenly_max425 {
+        justify-content: space-evenly;
+    }
+    .flexAlignCenter_max425 {
+        align-items: center;
+    }
+    .flexAlignStart_max425 {
+        align-items: flex-start;
+    }
+    .flexAlignEnd_max425 {
+        align-items: flex-end;
+    }
+    .flexAlignStretch_max425 {
+        align-items: stretch;
+    }
+    .flexColumn_max425 {
+        flex-direction: column;
+    }
+    .flexColumnReverse_max425 {
+        flex-direction: column-reverse;
+    }
+    .flexRowReverse_max425 {
+        flex-direction: row-reverse;
+    }
+    .flexWrap_max425 {
+        flex-wrap: wrap;
+    }
+    .flexWrapReverse_max425 {
+        flex-wrap: wrap-reverse;
+    }
+    .flexNoWrap_max425 {
+        flex-wrap: nowrap;
+    }
+}
+
+@media(max-width: 375px) {
+    .flex_max375 {
+        display: flex;
+    }
+    .flexCenter_max375 {
+        justify-content: center;
+    }
+    .flexBetween_max375 {
+        justify-content: space-between;
+    }
+    .flexAround_max375 {
+        justify-content: space-around;
+    }
+    .flexStart_max375 {
+        justify-content: flex-start;
+    }
+    .flexEnd_max375 {
+        justify-content: flex-end;
+    }
+    .flexStretch_max375 {
+        justify-content: stretch;
+    }
+    .flexEvenly_max375 {
+        justify-content: space-evenly;
+    }
+    .flexAlignCenter_max375 {
+        align-items: center;
+    }
+    .flexAlignStart_max375 {
+        align-items: flex-start;
+    }
+    .flexAlignEnd_max375 {
+        align-items: flex-end;
+    }
+    .flexAlignStretch_max375 {
+        align-items: stretch;
+    }
+    .flexColumn_max375 {
+        flex-direction: column;
+    }
+    .flexColumnReverse_max375 {
+        flex-direction: column-reverse;
+    }
+    .flexRowReverse_max375 {
+        flex-direction: row-reverse;
+    }
+    .flexWrap_max375 {
+        flex-wrap: wrap;
+    }
+    .flexWrapReverse_max375 {
+        flex-wrap: wrap-reverse;
+    }
+    .flexNoWrap_max375 {
+        flex-wrap: nowrap;
+    }
+}
+
+@media(max-width: 320px) {
+    .flex_max320 {
+        display: flex;
+    }
+    .flexCenter_max320 {
+        justify-content: center;
+    }
+    .flexBetween_max320 {
+        justify-content: space-between;
+    }
+    .flexAround_max320 {
+        justify-content: space-around;
+    }
+    .flexStart_max320 {
+        justify-content: flex-start;
+    }
+    .flexEnd_max320 {
+        justify-content: flex-end;
+    }
+    .flexStretch_max320 {
+        justify-content: stretch;
+    }
+    .flexEvenly_max320 {
+        justify-content: space-evenly;
+    }
+    .flexAlignCenter_max320 {
+        align-items: center;
+    }
+    .flexAlignStart_max320 {
+        align-items: flex-start;
+    }
+    .flexAlignEnd_max320 {
+        align-items: flex-end;
+    }
+    .flexAlignStretch_max320 {
+        align-items: stretch;
+    }
+    .flexColumn_max320 {
+        flex-direction: column;
+    }
+    .flexColumnReverse_max320 {
+        flex-direction: column-reverse;
+    }
+    .flexRowReverse_max320 {
+        flex-direction: row-reverse;
+    }
+    .flexWrap_max320 {
+        flex-wrap: wrap;
+    }
+    .flexWrapReverse_max320 {
+        flex-wrap: wrap-reverse;
+    }
+    .flexNoWrap_max320 {
+        flex-wrap: nowrap;
+    }
 }
 
 [class*="col-fl"] {
