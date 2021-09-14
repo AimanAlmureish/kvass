@@ -5,9 +5,6 @@
   <a aria-label="npm package" href="https://www.npmjs.com/package/kvass">
     <img alt="" src="https://img.shields.io/npm/v/kvass">
   </a>
-  <a aria-label="last commit" href="https://github.com/kvass/css/commits/main">
-    <img alt="" src="https://img.shields.io/github/last-commit/AimanAlmureish/css.svg">
-  </a>
 </p>
 
 ## Installation ⏳
