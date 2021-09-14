@@ -27,7 +27,7 @@ yarn add kvass
   
 ## Usage and Docs 🔮
 Fore a full documentation please refer to our docs
-https://kvass.netlify.app/ 
+https://kvass-css.vercel.app/
 
 ## License MIT 🎌
   
