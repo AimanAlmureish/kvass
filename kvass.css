@@ -845,6 +845,51 @@ body {
 }
 
 
+/* Overflow */
+
+.overflowScroll {
+    overflow: scroll;
+}
+
+.overflowHidden {
+    overflow: hidden;
+}
+
+.overflowVisible {
+    overflow: visible;
+}
+
+
+/* Overflow X */
+
+.overflowScroll_X {
+    overflow-x: scroll;
+}
+
+.overflowHidden_X {
+    overflow-x: hidden;
+}
+
+.overflowVisible_X {
+    overflow-x: visible;
+}
+
+
+/* Overflow Y */
+
+.overflowScroll_Y {
+    overflow-y: scroll;
+}
+
+.overflowHidden_Y {
+    overflow-y: hidden;
+}
+
+.overflowVisible_Y {
+    overflow-y: visible;
+}
+
+
 /* Media */
 
 @media(max-width: 2560px) {
